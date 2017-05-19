@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="MyTextView">
+    <declare-styleable name="MyCustomView">
         <attr name="myFont" format="enum">
             <enum name="alegreya" value="0"/>
             <enum name="steelworks" value="1"/>
         </attr>
+        <attr name="mainText" format="string"/>
+        <attr name="subText" format="string"/>
+        <attr name="mainTextSize" format="dimension"/>
+        <attr name="subTextSize" format="dimension"/>
+        <attr name="iconWidth" format="dimension"/>
+        <attr name="iconHeigh" format="dimension"/>
+        <attr name="iconSrc" format="reference"/>
+
     </declare-styleable>
 </resources>

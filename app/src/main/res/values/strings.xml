@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">CustomView</string>
-    <string name="customview_title">Text View 1</string>
-    <string name="customview_subtitle">Text View 2</string>
+    <string name="customview_title_1">Custom View #1 Title</string>
+    <string name="customview_subtitle_1">Custom View #1 Subtitle</string>
+    <string name="customview_title_2">Custom View #2 Title</string>
+    <string name="customview_subtitle_2">Custom View #2 Subtitle</string>
     <string name="customview_description_image">Main Image View</string>
 </resources>

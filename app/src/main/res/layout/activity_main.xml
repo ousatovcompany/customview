@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
-              android:layout_height="wrap_content">
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
 
 
     <com.example.ousatov.customview.view.MyCustomView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_green_light"/>
+        android:background="@android:color/holo_green_light"
+        app:iconWidth="200dp"
+        app:iconHeigh="150dp"
+        app:iconSrc="@color/colorAccent"
+        app:mainText="@string/customview_title_1"
+        app:mainTextSize="@dimen/font_size_m"
+        app:myFont="steelworks"
+        app:subText="@string/customview_subtitle_1"
+        app:subTextSize="@dimen/font_size_l"/>
+
+
+    <com.example.ousatov.customview.view.MyCustomView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_blue_bright"
+        app:iconWidth="-1dp"
+        app:iconHeigh="50dp"
+        app:iconSrc="@color/colorPrimary"
+        app:mainText="@string/customview_title_2"
+        app:mainTextSize="@dimen/font_size_l"
+        app:myFont="steelworks"
+        app:subText="@string/customview_subtitle_2"
+        app:subTextSize="@dimen/font_size_m"/>
 
 </LinearLayout>
